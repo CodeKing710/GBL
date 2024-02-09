@@ -6,6 +6,7 @@
 # Generate wrapper
 wrap() {
   [ ! -d /usr/local ] && \
+  echo "Generating UNIX Folder structures..." && \
   mkdir /usr/local && \
   mkdir /usr/local/bin
 }
